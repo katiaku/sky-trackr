@@ -1,22 +1,16 @@
-import { Text, View, SafeAreaView, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
+import CurrentWeather from "./src/components/CurrentWeather";
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.wrapper}>
-      <View style={styles.container}>
-        <Text>Current Weather</Text>
-      </View>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <CurrentWeather />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  wrapper: {
-    flex: 1,
-  },
   container: {
     flex: 1,
-    backgroundColor: "pink",
-    alignItems: "center",
   },
 });
