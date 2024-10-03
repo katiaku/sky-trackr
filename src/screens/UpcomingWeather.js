@@ -10,7 +10,7 @@ import ListItem from "../components/ListItem";
 
 const DATA = [
   {
-    dt_txt: "2023-02-18 12:00",
+    dt_txt: "2023-02-18 12:00:00",
     main: {
       temp_max: 8.55,
       temp_min: 7.55,
@@ -22,7 +22,7 @@ const DATA = [
     ],
   },
   {
-    dt_txt: "2023-02-18 15:00",
+    dt_txt: "2023-02-18 15:00:00",
     main: {
       temp_max: 8.55,
       temp_min: 7.55,
@@ -34,7 +34,7 @@ const DATA = [
     ],
   },
   {
-    dt_txt: "2023-02-18 18:00",
+    dt_txt: "2023-02-18 18:00:00",
     main: {
       temp_max: 8.55,
       temp_min: 7.55,
